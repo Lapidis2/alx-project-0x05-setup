@@ -3,7 +3,9 @@ import { ReactNode } from "react";
 export interface ReactComponentProps {
   children: ReactNode
 }
-
+export type RequestProps={
+	prompt:string
+}
 
 export interface GeneratedImageProps {
   imageUrl: string
